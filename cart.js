@@ -9,19 +9,16 @@ class Producto {
   }
 }
 
-// Obtener los productos desde el almacenamiento local o utilizar valores predeterminados
 const productos = JSON.parse(localStorage.getItem("cart"))
 
 
-// Obtener el carrito desde el almacenamiento local o inicializar un carrito vacío
 let carrito = JSON.parse(localStorage.getItem("cart")) || [];
 
-listarCarritoEnHTML(); // Mostrar el carrito en HTML
+listarCarritoEnHTML(); 
 
-// Función para listar el carrito en HTML
 function listarCarritoEnHTML() {
   const carritoContainer = document.getElementById("carrito-container");
-  carritoContainer.innerHTML = ""; // Limpiar el contenido previo del carrito
+  carritoContainer.innerHTML = ""; 
   console.log(carritoContainer);
 
   carrito.forEach((item) => {
@@ -45,5 +42,3 @@ function listarCarritoEnHTML() {
     }
   });
 }
-
-// Ejemplo de uso
