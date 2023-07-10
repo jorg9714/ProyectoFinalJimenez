@@ -1,0 +1,38 @@
+/* Adopcions */
+.adoptions {
+    display: flex;
+    width: 90%;
+    padding: 1%;
+    margin: 2%;
+    margin-top: 15px;
+    background-color: $second-color;
+    border: 1px #000000 solid;
+    transition: transform 5s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+    
+}
+
+.col-xl-8{
+    div{
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+.row-adoptions {
+    justify-content: center;
+}
+
+
+.imgAdoption img {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+}
+
+
+/* Adopcions End */

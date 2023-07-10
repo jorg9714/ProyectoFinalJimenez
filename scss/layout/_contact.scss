@@ -1,0 +1,35 @@
+.sectionContact {
+    margin: 10px;
+}
+
+.map-contact {
+    width: 810px;
+    height: 500px;
+}
+
+.sectionContactForm{
+    margin-top: 50px;
+}
+
+.form-user div input{
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    &:focus {
+        background-color: $first-color 
+      }
+}
+#textbox {
+    margin-top: 5px;
+    width: 380px; 
+    height: 200px;
+    resize: none; 
+    &:focus {
+        background-color: $first-color 
+      }
+  }
+
+  .text-contact{
+    display: flex;
+  }
+  

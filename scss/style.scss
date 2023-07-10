@@ -1,0 +1,20 @@
+//IMPORTS
+@import 'base/vars';
+@import 'base/reset';
+
+
+//IMPORTS COMPONENTS
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/modalCart';
+
+//IMPORTS LAYOUT
+
+@import 'layout/index';
+@import 'layout/adopcions';
+@import 'layout/about';
+@import 'layout/contact';
+@import 'layout/services';
+@import 'layout/mediaqueries';
+
+

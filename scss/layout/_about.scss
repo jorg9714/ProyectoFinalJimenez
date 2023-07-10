@@ -1,0 +1,37 @@
+/*About*/
+
+.row-about{
+    justify-content: center;
+}
+
+.boxinfAbout {
+    padding: 0;
+    text-align: center;
+    width: 90%;
+    background-color: $second-color;
+    border: 1px #000000 solid;
+    p{
+        margin: 20px;
+        text-align: justify;
+    }
+}
+ 
+
+.userProfile img{
+    margin: 30px;
+    height: 251px;
+    width: 251px;
+    object-fit: cover;
+    transition: transform 5s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.iframeYoutube{
+    width: 100%;
+    height: 400px;
+}
+
+/*About End*/

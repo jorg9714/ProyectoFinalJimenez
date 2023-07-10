@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px) {
+    .boxindex img {
+      height: 300px;
+    }
+  
+    .map{
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .boxindex img {
+      height: 400px;
+    }
+  
+    .nav-link-style {
+      border: none;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .boxindex img {
+      height: 180px;
+    }
+  
+    .map-contact,
+    .map,
+    #textbox {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .form-user div input {
+      width: 300px;
+    }
+  
+    .sectionContactForm {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .row-services {
+      padding: 15px;
+    }
+  
+    .social {
+      margin-left: 7px;
+    }
+  
+    .social img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .social p {
+      margin-right: 0;
+      margin-top: 10px;
+      margin-left: 5px;
+      font-size: 15px;
+    }
+  
+    .colfooter-SocialNetwork {
+      margin-top: 10px;
+    }
+  
+    .schedule img,
+    .colfooter-contact img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .colfooter-contact {
+      margin-top: 10px;
+    }
+  
+    .schedule {
+      margin-top: 20px;
+    }
+  
+    .contact {
+      display: list-item;
+    }
+  
+    .cardServices div img {
+      height: 300px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .social p {
+      margin-right: 15px;
+    }
+  
+    .colfooter-SocialNetwork {
+      margin-top: 10px;
+    }
+  
+    .colfooter-contact {
+      margin-top: 40px;
+    }
+  
+    .map{
+      width: 536px;
+      height: 536px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1400px) {
+    .map {
+      width: 800px;
+      height: 536px;
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 1199px) {
+    .map-contact {
+      width: 450px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .map-contact {
+      width: 650px;
+    }
+  
+    .form-user div input {
+      margin: 0px;
+      margin-top: 5px;
+      width: 380px;
+    }
+  
+    #textbox {
+      height: 120px;
+    }
+  }
+  

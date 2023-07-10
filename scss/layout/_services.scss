@@ -1,0 +1,123 @@
+
+/*Services*/
+
+.boxInfoServices {
+    height: 100% ;
+    width: 80%;  
+    background-color: $second-color;
+    border: 1px #000000 solid;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.boxInfoServices table {
+    margin: auto;
+    border: 1px #000000 solid;
+    margin-bottom: 10px;
+}
+
+.price th {
+    padding: 5px;
+    background-color: $third-color;
+    border: 1px #000000 solid;
+
+}
+
+.price tr {
+    padding: 5px;
+    border: 1px #000000 solid;
+
+}
+
+.price td {
+    padding: 5px;
+    border: 1px #000000 solid;
+
+}
+
+.cardServices {
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row-services{
+    padding: 50px;
+}
+
+.cardServices div img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.serv-list li{
+    text-align: left;
+    p{
+        text-align: justify;
+    }
+}
+
+/* Carrito de compras */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .boxInfoServices {
+    background-color: $second-color;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: $main-font;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #carrito-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .item-carrito {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+  
+    img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+  
+    h3 {
+      font-family: $main-font;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-family: $main-font;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  /* Carrito de compras End */
+  
+/*Services End*/
