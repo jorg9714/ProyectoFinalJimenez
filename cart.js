@@ -1,18 +1,7 @@
-class Producto {
-  constructor(id, nombre, precio, descripcion, categoria, imagen) {
-    this.id = id;
-    this.precio = precio;
-    this.nombre = nombre;
-    this.descripcion = descripcion;
-    this.categoria = categoria;
-    this.imagen = imagen;
-  }
-}
-
-const productos = JSON.parse(localStorage.getItem("cart"))
 
 
-let carrito = JSON.parse(localStorage.getItem("cart")) || [];
+
+let carrito = JSON.parse(localStorage.getItem("cart"));
 
 listarCarritoEnHTML(); 
 
@@ -22,7 +11,7 @@ function listarCarritoEnHTML() {
   console.log(carritoContainer);
 
   carrito.forEach((item) => {
-    const cartDetail = productos.find((p) => p.id === item.productoId);
+    const cartDetail = carrito.find((p) => p.id === item.productoId);
     if (cartDetail) {
      
       console.log(cartDetail)
