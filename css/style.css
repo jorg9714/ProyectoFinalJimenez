@@ -170,8 +170,8 @@
 .sectionInfo {
   background-color: #a0c5be;
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 .sectionInfo a {
   text-decoration: none;
@@ -338,7 +338,25 @@
 .calculadora #resultado {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  margin-top: 1rem;
+  margin-top: 1reM;
+}
+
+#btnConsultarPerro,
+#btnConsultarGato {
+  background-color: #ffd783;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+#btnConsultarPerro:hover,
+#btnConsultarGato:hover {
+  background-color: #e8e384;
+  transform: scale(1.1);
 }
 
 /* Adopcions */

@@ -30,6 +30,8 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <title>Dogs and Stars - Guardería y Adopciones de Perros</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
 </head>
 
 <body>
@@ -74,13 +76,13 @@
             </div>
         </section>
         <section class="sectionInfo">
-            <a href=" https://web.whatsapp.com/" target="_blank">
-                <div class="container buttonWhatsapp">
-                    <img src="multimedia/icons/whatsappIcon.png" alt="">
-                    <label for=>Contactanos</label>
-                </div>
-            </a>
-        </section>
+            <div class="container">
+              <h2>¡Descubre una Raza Aleatoria!</h2>
+              <p>Haz clic en los botones para conocer una raza de perro o gato de forma divertida.</p>
+              <button id="btnConsultarPerro">Consultar Raza de Perro aleatorio</button>
+              <button id="btnConsultarGato">Consultar Raza de Gato aleatorio</button>
+            </div>
+          </section>
         <section class="sectionInfo">
             <h2>Productos</h2>
             <div class="container">
@@ -104,32 +106,32 @@
                         <h3>Calcula tu ración diaria</h3>
                         <label for="mascota">Indica qué mascota tienes:</label>
                         <select id="mascota">
-                          <option value="Perro">Perro</option>
-                          <option value="Gato">Gato</option>
+                            <option value="Perro">Perro</option>
+                            <option value="Gato">Gato</option>
                         </select>
-                      
+
                         <label for="peso">Indica el peso de tu mascota (kg):</label>
                         <input type="number" id="peso" min="0" step="0.01">
-                      
+
                         <label for="actividad">Indica la actividad física de tu mascota:</label>
                         <select id="actividad">
-                          <option value="Sedentaria">Sedentaria</option>
-                          <option value="Moderada">Moderada</option>
-                          <option value="Activa">Activa</option>
+                            <option value="Sedentaria">Sedentaria</option>
+                            <option value="Moderada">Moderada</option>
+                            <option value="Activa">Activa</option>
                         </select>
-                      
+
                         <label for="edad">Indica la edad de tu mascota:</label>
                         <input type="number" id="edad" min="0" step="1">
-                      
+
                         <button onclick="calcularRacionDiaria()">Calcular</button>
-                      
+
                         <p id="resultado"></p>
-                      </div>
-                    <div  class="col-xl-4 boxProduct">
+                    </div>
+                    <div class="col-xl-4 boxProduct">
                     </div>
                     <div class="col-xl-4 boxProduct">
                     </div>>
-        
+
                 </section>
             </div>
         </section>
@@ -189,6 +191,7 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
